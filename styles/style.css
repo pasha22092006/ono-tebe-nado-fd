@@ -20,7 +20,6 @@
   flex-direction: row;
   gap: 28px;
   list-style: circle;
-
 }
 
 .header__links-list-item_no-bullit {
@@ -192,8 +191,7 @@
   font-size: 20px;
 }
 
-
-/* Об аукционе */
+/* about */
 
 .about {
   display: grid;
@@ -271,8 +269,8 @@
 }
 
 .footer-menu-list-item {
-  list-style: none;
   justify-self: center;
+  list-style: none;
 }
 
 .footer-menu-link_active {
@@ -282,9 +280,9 @@
 .footer-social-list {
   display: flex;
   flex-direction: row;
+  justify-content: end;
   gap: 48px;
   margin-right: 50px;
-  justify-content: end;
 }
 
 .footer-social-list-item {
