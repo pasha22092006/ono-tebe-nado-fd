@@ -57,7 +57,7 @@
   background-size: cover;
 }
 
-.cover-text-title {
+.cover-title {
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
@@ -116,7 +116,8 @@
 /* lots */
 
 .lots {
-  margin: 0 24px;
+  width: 1100px;
+  padding: 0 24px;
 }
 
 .lots-heading {
@@ -197,7 +198,7 @@
   display: grid;
   grid-template-columns: 334px auto;
   gap: 25px;
-  margin: 120px 24px 0px 24px;
+  padding: 120px 24px 0px 24px;
 }
 
 .logo-column {
@@ -254,7 +255,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 180px 0 82px;
+  padding: 180px 0 82px;
   text-underline-position: under;
 }
 
