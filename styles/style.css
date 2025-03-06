@@ -1,4 +1,4 @@
-/* место для вашего кода */
+/* Мне очень тяжело далось вёрстка данного проекта. Можете, пожалуйста, оставлять подробные комментарии*/
 /* header */
 
 .header {
@@ -6,12 +6,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   width: 1100px;
-  padding: 95px 50px 100px;
-  color: #000;
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.35;
+  padding: 92px 50px 96px;
   text-underline-position: under;
 }
 
@@ -19,6 +14,11 @@
   display: flex;
   flex-direction: row;
   gap: 28px;
+  color: #000;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.35;
   list-style: circle;
 }
 
@@ -33,17 +33,26 @@
 
 .header-logo-image {
   display: block;
-  width: 129px;
+  width: 148px;
   height: 105px;
 }
 
 .address {
-  justify-self: end;
-  max-width: 240px;
-  margin-left: 184px;
+  color: #000;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.35;
+}
+
+.header-address {
+  display: block;
+  padding-left: 184px;
 }
 
 /* cover */
+/* Мне очень тяжело далось вёрстка данного проекта. Можете, пожалуйста, оставлять подробные комментарии*/
 
 .cover {
   position: relative;
@@ -54,10 +63,12 @@
   font-family: "Raleway";
   text-transform: uppercase;
   background-image: url(/images/cover.jpg);
+  background-position: center;
   background-size: cover;
 }
 
 .cover-title {
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
@@ -66,7 +77,7 @@
 
 .aligned-text-center {
   display: block;
-  text-align: center;
+  padding: 20px 330.5px;
 }
 
 .aligned-text-right {
@@ -83,11 +94,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 106px;
+  padding-top: 106px;
   font-weight: 400;
   font-size: 22px;
-  line-height: 127%;
-  word-spacing: 1.1em;
+  word-spacing: 18px;
 }
 
 .overlay {
@@ -163,6 +173,7 @@
   font-family: "Raleway";
   font-weight: 400;
   font-size: 20px;
+  line-height: 120%;
 }
 
 .card-link {
@@ -171,16 +182,19 @@
 
 .card-type-film {
   background-image: url(/images/card-lot-01.jpg);
+  background-position: center;
   background-size: cover;
 }
 
 .card-type-book {
   background-image: url(/images/card-lot-02.jpg);
+  background-position: center;
   background-size: cover;
 }
 
 .card-type-picture {
   background-image: url(/images/card-lot-03.jpg);
+  background-position: center;
   background-size: cover;
 }
 
@@ -240,7 +254,8 @@
   font-family: "Raleway";
   font-weight: 400;
   font-size: 20px;
-
+  line-height: 120%;
+  word-spacing: 1.4;
 }
 
 .about-text-start {
@@ -255,18 +270,21 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 180px 0 82px;
+  padding: 180px 50px 82px;
   text-underline-position: under;
 }
 
-.footer .address {
-  justify-self: start;
-  max-width: 265px;
-  margin-left: 50px;
+.footer-address {
+  display: block;
 }
 
 .footer-menu {
   justify-self: center;
+  color: #000;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  text-underline-position: under;
 }
 
 .footer-menu-list-item {
@@ -283,7 +301,6 @@
   flex-direction: row;
   justify-content: end;
   gap: 48px;
-  margin-right: 50px;
 }
 
 .footer-social-list-item {
