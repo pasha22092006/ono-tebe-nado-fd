@@ -204,6 +204,7 @@
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
+  text-underline-position: under;
 }
 
 /* about */
@@ -250,6 +251,9 @@
 }
 
 .about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   color: #000;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -257,12 +261,6 @@
   line-height: 120%;
   word-spacing: 1.4;
 }
-
-.about-text-start {
-  display: block;
-  padding-bottom: 24px;
-}
-
 
 /* footer */
 
@@ -272,10 +270,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   padding: 180px 50px 82px;
   text-underline-position: under;
-}
-
-.footer-address {
-  display: block;
 }
 
 .footer-menu {
